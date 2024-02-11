@@ -1,0 +1,120 @@
+@import 'variables.scss';
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__green,
+  .button-green {
+    background-color: $color-green;
+  }
+
+  &__blue,
+  .button-blue {
+    background-color: $color-blue;
+  }
+
+  &__orange,
+  .button-orange {
+    background-color: $color-orange;
+  }
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: $color-bg-card;
+  margin-left: 18px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 33px;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__text {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  &__price {
+    margin-top: 33px;
+    height: 105px;
+    display: flex;
+  }
+
+  &__euro {
+    margin: auto;
+    font-size: 55px;
+    line-height: 67px;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__option-list {
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    list-style-type: none;
+
+    &-item {
+      padding: 16px 0;
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: 300;
+
+      &:nth-child(odd) {
+        background-color: $color-odd-item;
+      }
+    }
+  }
+
+  i {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin: 0 22px;
+  }
+
+  .checkmark-green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+
+  .checkmark-blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+
+  .checkmark-orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+
+  &__order-btn {
+    width: 155px;
+    height: 40px;
+    display: block;
+    margin: 39px auto 0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+}
