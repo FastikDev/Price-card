@@ -88,19 +88,19 @@
   font-weight: 300;
   text-align: center;
 }
-.price-card__option-list {
+.price-card__option-lists {
   margin: 0;
   margin-top: 40px;
   padding: 0;
   list-style-type: none;
 }
-.price-card__option-list-item {
+.price-card__option-lists-item {
   padding: 16px 0;
   font-size: 15px;
   line-height: 18px;
   font-weight: 300;
 }
-.price-card__option-list-item:nth-child(odd) {
+.price-card__option-lists-item:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card i {
