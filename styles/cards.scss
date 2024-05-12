@@ -23,11 +23,42 @@
   }
 }
 
+.card-popular {
+  position: relative;
+  overflow: hidden;
+}
+
 .price-card {
   width: 380px;
   height: 770px;
   background-color: $color-bg-card;
   margin-left: 18px;
+
+  .container {
+    position: absolute;
+    right: -35px;
+    top: -18px;
+    height: 122px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+    .red {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 25px;
+      width: 147px !important;
+      transform: rotate(45deg);
+      background-color: $color-red;
+
+      .popular {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
 
   &:first-child {
     margin-left: 0;
