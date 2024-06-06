@@ -7,6 +7,18 @@
   align-items: center;
   gap: 18px;
   height: 100vh;
+
+  &_green {
+    background-color: $color-green;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+  }
+
+  &_orange {
+    background-color: $color-orange;
+  }
 }
 
 .price-card {
@@ -63,11 +75,6 @@
     margin-top: 33px;
     height: 105px;
     display: flex;
-    background-color: $color-green;
-
-    &:nth-child(2) {
-      background-color: $color-blue;
-    }
   }
 
   &__euro {

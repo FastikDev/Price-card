@@ -6,6 +6,15 @@
   gap: 18px;
   height: 100vh;
 }
+.cards_green {
+  background-color: #5bb189;
+}
+.cards_blue {
+  background-color: #3a6ba5;
+}
+.cards_orange {
+  background-color: #ec632a;
+}
 
 .price-card {
   width: 380px;
@@ -56,10 +65,6 @@
   margin-top: 33px;
   height: 105px;
   display: flex;
-  background-color: #5bb189;
-}
-.price-card__price:nth-child(2) {
-  background-color: #3a6ba5;
 }
 .price-card__euro {
   margin: auto;
