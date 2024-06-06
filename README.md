@@ -1,4 +1,4 @@
-# Price Card
+# Price Cards
 
 ### [Site link](https://fastikdev.github.io/Price-card/)
 
@@ -12,4 +12,4 @@
 
 ### Author
 
-- Viktor
+- Viktor Troyan

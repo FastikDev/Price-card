@@ -3,31 +3,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 18px;
   height: 100vh;
-}
-.cards__green,
-.cards .button-green {
-  background-color: #5bb189;
-}
-.cards__blue,
-.cards .button-blue {
-  background-color: #3a6ba5;
-}
-.cards__orange,
-.cards .button-orange {
-  background-color: #ec632a;
-}
-
-.card-popular {
-  position: relative;
-  overflow: hidden;
 }
 
 .price-card {
   width: 380px;
   height: 770px;
   background-color: #334247;
-  margin-left: 18px;
+}
+.price-card:nth-child(2) {
+  position: relative;
+  overflow: hidden;
 }
 .price-card .container {
   position: absolute;
@@ -38,7 +25,10 @@
   display: flex;
   align-items: center;
 }
-.price-card .container .red {
+.price-card .container .popular {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,14 +36,6 @@
   width: 147px !important;
   transform: rotate(45deg);
   background-color: #dc3f45;
-}
-.price-card .container .red .popular {
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-}
-.price-card:first-child {
-  margin-left: 0;
 }
 .price-card__title {
   margin: 0;
@@ -103,19 +85,19 @@
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card i {
+.price-card .checkmark {
   display: inline-block;
   width: 15px;
   height: 13px;
   margin: 0 22px;
 }
-.price-card .checkmark-green {
+.price-card .checkmark_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card .checkmark-blue {
+.price-card .checkmark_blue {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card .checkmark-orange {
+.price-card .checkmark_orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__order-btn {
@@ -128,6 +110,15 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.price-card__order-btn_green {
+  background-color: #5bb189;
+}
+.price-card__order-btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background-color: #ec632a;
+}
 
 * {
   box-sizing: border-box;
@@ -136,6 +127,7 @@
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  background-color: #141b1c;
 }
 
 .page {
@@ -143,7 +135,6 @@ html {
   min-height: 100vh;
   margin: auto;
   color: #fff;
-  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */
