@@ -46,6 +46,7 @@
   text-align: center;
 }
 .price-card__text {
+  font-weight: 300;
   display: block;
   font-size: 20px;
   line-height: 24px;
@@ -55,6 +56,10 @@
   margin-top: 33px;
   height: 105px;
   display: flex;
+  background-color: #5bb189;
+}
+.price-card__price:nth-child(2) {
+  background-color: #3a6ba5;
 }
 .price-card__euro {
   margin: auto;
@@ -63,8 +68,9 @@
   font-weight: 700;
 }
 .price-card__description {
-  margin: 0;
-  margin-top: 40px;
+  margin: 40px auto;
+  margin-bottom: 0;
+  width: 327px;
   font-size: 15px;
   line-height: 18px;
   font-weight: 300;
@@ -101,6 +107,7 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__order-btn {
+  font-size: 14px;
   width: 155px;
   height: 40px;
   display: block;

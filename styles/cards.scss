@@ -27,7 +27,7 @@
     width: 150px;
     display: flex;
     align-items: center;
-      
+
     .popular {
       color: white;
       font-size: 14px;
@@ -39,7 +39,7 @@
       width: 147px !important;
       transform: rotate(45deg);
       background-color: $color-red;
-      }
+    }
   }
 
   &__title {
@@ -52,6 +52,7 @@
   }
 
   &__text {
+    font-weight: 300;
     display: block;
     font-size: 20px;
     line-height: 24px;
@@ -62,6 +63,11 @@
     margin-top: 33px;
     height: 105px;
     display: flex;
+    background-color: $color-green;
+
+    &:nth-child(2) {
+      background-color: $color-blue;
+    }
   }
 
   &__euro {
@@ -72,8 +78,9 @@
   }
 
   &__description {
-    margin: 0;
-    margin-top: 40px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    width: 327px;
     font-size: 15px;
     line-height: 18px;
     font-weight: 300;
@@ -85,7 +92,7 @@
     margin-top: 40px;
     padding: 0;
     list-style-type: none;
-    }
+  }
 
   &__options-list-item {
     padding: 16px 0;
@@ -118,6 +125,7 @@
   }
 
   &__order-btn {
+    font-size: 14px;
     width: 155px;
     height: 40px;
     display: block;
