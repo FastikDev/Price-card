@@ -7,6 +7,18 @@
   align-items: center;
   gap: 18px;
   height: 100vh;
+
+  &_green {
+    background-color: $color-green;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+  }
+
+  &_orange {
+    background-color: $color-orange;
+  }
 }
 
 .price-card {
@@ -27,8 +39,18 @@
     top: -18px;
     height: 122px;
     width: 150px;
+<<<<<<< HEAD
     
     &__text {
+=======
+    display: flex;
+    align-items: center;
+
+    .popular {
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+>>>>>>> 19373499cd9cdb18934e8045e2179a3c14a9e17f
       display: flex;
       align-items: center;
       justify-content: center;
@@ -39,7 +61,7 @@
       width: 147px !important;
       transform: rotate(45deg);
       background-color: $color-red;
-      }
+    }
   }
 
   &__title {
@@ -52,6 +74,7 @@
   }
 
   &__text {
+    font-weight: 300;
     display: block;
     text-align: center;
     font-size: 20px;
@@ -84,9 +107,15 @@
   }
 
   &__description {
+<<<<<<< HEAD
     margin: 0;
     margin-top: 40px;
     text-align: center;
+=======
+    margin: 40px auto;
+    margin-bottom: 0;
+    width: 327px;
+>>>>>>> 19373499cd9cdb18934e8045e2179a3c14a9e17f
     font-size: 15px;
     line-height: 18px;
     font-weight: 300;
@@ -97,7 +126,7 @@
     margin-top: 40px;
     padding: 0;
     list-style-type: none;
-    }
+  }
 
   &__options-list-item {
     padding: 16px 0;
@@ -111,6 +140,12 @@
   }
 
   &__order-btn {
+<<<<<<< HEAD
+=======
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+>>>>>>> 19373499cd9cdb18934e8045e2179a3c14a9e17f
     display: block;
     margin: 39px auto 0;
     color: #fff;
